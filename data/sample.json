@@ -1,0 +1,32 @@
+
+{
+  "source": {
+    "name": "NYC TLC High Volume FHV Trip Records",
+    "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/fhvhv_tripdata_2025-01.parquet",
+    "filename": "fhvhv_tripdata_2025-01.parquet",
+    "sha256": "fcdef276f4e9887f2beab30590165cdea74caef50a1313d71fa01ff6afacca3a"
+  },
+  "selection": {
+    "start_datetime": "2025-01-13T00:00:00",
+    "end_datetime_exclusive": "2025-01-20T00:00:00",
+    "pickup_location_id": 255,
+    "dropoff_location_id": 112,
+    "providers": ["HV0003", "HV0005"],
+    "shared_request_flag": "N",
+    "shared_match_flag": "N",
+    "require_positive_fare": true,
+    "require_positive_distance": true,
+    "require_positive_duration": true
+  },
+  "columns": [
+    "hvfhs_license_num",
+    "pickup_datetime",
+    "PULocationID",
+    "DOLocationID",
+    "trip_miles",
+    "trip_time",
+    "base_passenger_fare",
+    "shared_request_flag",
+    "shared_match_flag"
+  ]
+}

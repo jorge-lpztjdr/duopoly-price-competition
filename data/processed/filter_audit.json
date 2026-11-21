@@ -1,0 +1,15 @@
+{
+    "total_rows": 20405666,
+    "excluded_outside_market": 20400564,
+    "candidate_rows": 5102,
+    "excluded_invalid_fare": 0,
+    "excluded_invalid_distance": 0,
+    "excluded_invalid_duration": 0,
+    "excluded_shared_request": 92,
+    "excluded_shared_match": 1,
+    "eligible_rows": 5009,
+    "trips_by_provider": {
+        "HV0003": 3707,
+        "HV0005": 1302
+    }
+}

@@ -1,0 +1,39 @@
+# Python virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Python packaging artifacts
+*.egg-info/
+build/
+dist/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# TLC data
+data/raw/
+data/processed/*
+!data/processed/filter_audit.json
+!data/processed/summary.csv
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+
+# Local working materials
+/report/
+/.codex/
+/.agents/
+/.aws/
+/AGENTS.md
+/prompt.md

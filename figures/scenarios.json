@@ -1,0 +1,22 @@
+{
+  "F1": {
+    "name": "best_responses",
+    "params": {"a": 7, "delta": -2, "k": 1, "s": 1, "c": 4},
+    "interpretation": "Each curve gives one firm's optimal price for a fixed rival price. Their intersection is the unique pure-strategy Nash equilibrium. In this scenario Lyft has the larger demand intercept and charges the higher equilibrium price.",
+    "scope": "Illustrative model parameters. Prices are in model units. No parameters were fitted to TLC data."
+  },
+  "F2": {
+    "name": "symmetric_price_and_profit",
+    "params": {"a": 7, "delta": 0, "k": 1, "s": 0, "c": 4},
+    "s_grid": {"start": 0, "stop": 6, "num": 121},
+    "interpretation": "Both firms choose the same price and earn the same profit. As relative-price sensitivity rises, price and profit fall. Profit has zero slope at s = 0.",
+    "scope": "Only s varies. Prices and profits are in illustrative model units."
+  },
+  "F3": {
+  "name": "asymmetric_prices_and_shares",
+  "params": {"a": 7, "delta": -2, "k": 1, "s": 1, "c": 4},
+  "s_grid": {"start": 0, "stop": 6, "num": 121},
+  "interpretation": "Lyft has the larger demand intercept and charges the higher price throughout. As relative-price sensitivity increases, the price gap and the share gap narrow. Uber gains share throughout, although its own price initially rises.",
+  "scope": "Only s varies. Shares are percentages of modelled duopoly demand. Parameters are illustrative."
+  }
+}
